@@ -179,32 +179,32 @@ public class StudentGroup implements GroupOperationService {
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
-
+		return null;
 	}
 
 	@Override
 	public Student[] getNearBirthDate(Date date, int days) {
-
+		return null;
 	}
 
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
-
+		return 0;
 	}
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
-
+		return null;
 	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
-
+		return null;
 	}
 
 	@Override
 	public Student getNextStudent(Student student) {
-
+		return null;
 	}
 
 	@Override
@@ -226,14 +226,14 @@ public class StudentGroup implements GroupOperationService {
 	}
 
 	private int getStudentIndex(Student student) {
-
+		return 0;
 	}
 
 	private int getDiffYears(Date first, Date last) {
-
+		return 0;
 	}
 
 	private Calendar getCalendar(Date date) {
-
+		return null;
 	}
 }
